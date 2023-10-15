@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    {% include meta.html %}
+
+    <title>{{ page.title }}</title>
+
+    {% include fonts.html %}
+    {% include responsive.html %}
+    {% include styles.html %}
+    {% include bootstrap.html %}
+    {% include favicon.html %}
+    {% include ga.html %}
+</head>
+
+<body>
+<a name="top"></a>
+
+<!-- Header -->
+<header id="header-container"></header>
+
+<!-- Body Content -->
+{{ content }}
+
+<!-- Footer -->
+<footer id="footer-container" class="bg-light"></footer>
+
+</body>
+
+</html>
